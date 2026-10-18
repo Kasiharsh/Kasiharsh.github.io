@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portofolio - Naila Kasih Arshanti</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.js"></script>
+  <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+
+  <!-- Navbar (Modul 3) -->
+  <header class="z-[60] sticky top-0 font-zelda">
+    <nav class="relative z-[60] flex items-center justify-between backdrop-filter backdrop-blur-md bg-opacity-40 px-[90px] h-[90px]">
+
+      <!-- Area Kiri (Logo & Menu) -->
+      <div class="flex flex-row items-center gap-[60px]">
+        <img class="h-14 w-auto" src="images/navbar/navbar-logo.svg" alt="Home" />
+
+        <ul class="flex flex-row gap-[64px] text-white text-[2rem]">
+          <a class="hover:underline hover:text-[#F3B641]" href="#hero">
+            Home
+          </a>
+          <a class="hover:underline hover:text-[#F3B641]" href="#aboutme">
+            About me
+          </a>
+          <a class="hover:underline hover:text-[#F3B641]" href="#myskills">
+            My Skills
+          </a>
+          <a class="hover:underline hover:text-[#F3B641]" href="#experience">
+            My Experience
+          </a>
+        </ul>
+      </div>
+
+      <!-- Area Kanan (Sosmed) -->
+      <div class="flex flex-row items-center gap-3">
+        <div class="flex flex-row items-center gap-[15px]">
+          <a class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70"
+            href="https://x.com/HMSI_ITS" target="_blank">
+            <img class="w-11" src="images/navbar/x-logo.svg" alt="X" />
+          </a>
+          <a class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70"
+            href="https://www.tiktok.com/@hmsi_its" target="_blank">
+            <img class="w-11" src="images/navbar/tiktok-logo.svg" alt="TikTok" />
+          </a>
+          <a class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70"
+            href="https://www.instagram.com/hmsi_its" target="_blank">
+            <img class="w-11" src="images/navbar/ig-logo.svg" alt="Instagram" />
+          </a>
+          <a class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70"
+            href="https://youtube.com/@layarHMSI" target="_blank">
+            <img class="w-11" src="images/navbar/yt-logo.svg" alt="Youtube" />
+          </a>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Section 1 - Hero -->
+    <section id="hero" class="bg-[red] text-center py-[100px]">
+      <h1 class="font-zelda text-center text-[128px]">My Portofolio</h1>
+      <p class="px-[100px] text-[32px]">Naila Kasih Arshanti</p>
+    </section>
+
+    <!-- Section 2 - About Me -->
+    <section id="aboutme" class="py-[100px]">
+      <h2 class="font-zelda text-center text-[80px]">About Me</h2>
+      <p class="px-[100px] text-[32px]">
+        Halo! Saya Naila Kasih Arshanti, seorang siswa
+        kelas 10 di SMAN 15 Surabaya yang memiliki
+        ketertarikan tinggi terhadap dunia teknologi,
+        kepemimpinan, dan komunikasi visual.
+        Saya percaya bahwa kombinasi antara pemahaman
+        teknis dan kemampuan komunikasi yang baik
+        adalah kunci penting di era digital saat ini.
+
+        Saat ini, saya aktif mengembangkan diri secara
+        mandiri dengan mempelajari dasar-dasar
+        pemrograman (coding) serta meningkatkan
+        kelancaran berbahasa Inggris.
+
+        Selain fokus akademis dan belajar mandiri,
+        saya juga memiliki keahlian dalam bidang kreatif,
+        seperti merancang desain poster yang menarik
+        serta mengedit konten video.
+
+        Pengalaman saya dalam kegiatan ekstrakurikuler
+        sekolah turut melatih fokus, daya konsentrasi,
+        serta kemampuan berorganisasi dan bekerja sama
+        dalam tim.
+
+        Untuk terus memperluas wawasan dan mengikuti
+        perkembangan tren industri digital, saya juga
+        rajin berpartisipasi dalam berbagai seminar
+        dan webinar di bidang IT.
+      </p>
+    </section>
+
+    <!-- Section 3 - My Skills -->
+    <section id="myskills" class="text-left w-[600px] mx-auto p-[60px]">
+      <h2 class="font-zelda text-center text-[80px]">My Skills</h2>
+      <div>
+        <h3 class="font-zelda text-[48px]">Aku tertarik untuk belajar IT</h3>
+        <ul class="text-[32px] list-inside list-disc">
+          <li>Aku suka Kimia</li>
+          <li>Aku suka Bahasa inggris</li>
+          <li>Aku suka sosiologi</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 4 - My Experience -->
+    <section id="experience" class="py-[100px]">
+      <div class="flex flex-col gap-4 items-center">
+        <h1 class="font-zelda text-[128px] text-white [text-shadow:0_5px_0_#7A3D21] text-center">
+          MY EXPERIENCE
+        </h1>
+
+        <div class="flex flex-row gap-4">
+          <img class="w-[600px]" src="images/fotoku/foto1.png" alt="Pengalaman 1">
+          <img class="w-[600px]" src="images/fotoku/foto2.png" alt="Pengalaman 2">
+        </div>
+        <div class="flex flex-row gap-4">
+          <img class="w-[600px]" src="images/fotoku/foto3.png" alt="Pengalaman 3">
+          <img class="w-[600px]" src="images/fotoku/foto4.png" alt="Pengalaman 4">
+        </div>
+      </div>
+    </section>
+
+  </main>
+  
+    <!-- footer -->
+     <footer class="w-full sm:h-[500px] md:h-[350px] lg:h-[600px]
+     bg-[url('images/footer/bg-footer.png')] bg-cover bg-center px-4 py-8 lg:px-[90px] 
+     lg:py-[88px] lg:border-t-[20px] border-t-[#7A3D21]flex justtify items-center">
+     
+     <!-- FRAME PARENT -->
+        <div class="flex flex-col sm:w-full h-[440px] md:w-170 lg:w-full lg:h-full
+        bg-[url('images/footer/frame-footer-mobile.png')]
+        md:bg-[url('images/footer/frame-footer-desktop.png')]
+        bg-center bg-contain bg-no-repeat px-6 py-10 lg:px-[20px] item-center justify-center">
+            <!-- NAVBAR -->
+            <div class="flex flex-col lg:flex-row items-center justify-center gab: lg:gap-6 font-zelda">
+                    <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1,5rem] lg:text-[32px]" href="#home">HOME</a>
+                    <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1,5rem] lg:text-[32px]" href="#aboutme">ABOUT ME</a>
+                    <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1,5rem] lg:text-[32px]" href="#myskills">MY SKILLS</a>
+                    <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1,5rem] lg:text-[32px]" href="#experience">MY EXPERIENCE</a>
+            </div>
+            <!-- Copyright -->
+             <p class="font-times font-bold text-[#F9DCB4] text-[20px] mt-4">© SIMETRI HMSI ITS 2026</p>
+        </div>
+     </footer>
+</body>
+
+</html>
