@@ -1,27 +1,24 @@
-const hamburger = document.getElementById("hamburgerBtn);
-const mobileMenu = document.getElementById("mobileMenu);
-const hamburgericon = document.getElementById("iconHamburger");
-const closeicon = document.getElementById("iconClose);
+const hamburgerBtn = document.getElementById("hamburgerBtn");
+const mobileMenu = document.getElementById("mobileMenu");
+const hamburgerIcon = document.getElementById("iconHamburger");
+const closeIcon = document.getElementById("iconClose");
 
-let is Open = false;
+let isOpen = false;
 
-hamburgerBtn.addEventListener("Click",() {
-    isOpen = !isOpen;
+hamburgerBtn.addEventListener("click", () => {
+  isOpen = !isOpen;
 
-    if(isOpen){
-        mobileMenu.classlist.remove("translate-x-full");
-        mobileMenu.classlist.add("translate-x-0");
-
-        hamburgericon.classlist.add("hidden");
-        closeicon.classlist.remove("hidden");
-
-        document.body.style.overflow = "hidden";
-    }
-    else {
-        mobileMenu.classlist.remove("translate-x-0");
-        mobileMenu.classlist.add("translate-x-full");
-        hamburgericon.classlist.remove("hidden");
-
-        document.body.style.overflow = "auto";
-    }
-})
+  if (isOpen) {
+    mobileMenu.classList.remove("translate-x-full");
+    mobileMenu.classList.add("translate-x-0");
+    hamburgerIcon.classList.add("hidden");
+    closeIcon.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+  } else {
+    mobileMenu.classList.remove("translate-x-0");
+    mobileMenu.classList.add("translate-x-full");
+    hamburgerIcon.classList.remove("hidden");
+    closeIcon.classList.add("hidden");
+    document.body.style.overflow = "";
+  }
+});
